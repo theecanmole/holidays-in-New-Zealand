@@ -1,7 +1,10 @@
-To use the holidays Python package to export New Zealand holidays to a CSV file on a Debian Linux OS, you need to first install the necessary packages, and then run a Python script to generate and save the data. 
+## New Zealand holidays and business days from the Python holidays package 1894 to 2030
 
-Step 1: Install Python and Pip on Debian 
-Open your terminal on the Debian system and run the following commands to ensure Python 3 and its package manager, pip, are installed. It is highly recommended to use a virtual environment to avoid system-wide package conflicts. 
+To use the [Python holidays package](https://pypi.org/project/holidays/) to export New Zealand holidays to a CSV file on a Debian Linux OS, you need to first install the necessary packages, and then run a Python script to generate and save the data. 
+
+Step 1: Install Python and Pip on a Debian/MX-23 operating system. 
+
+Open your xterminal on the Debian system and run the following commands to ensure Python 3 and its package manager, pip, are installed. It is highly recommended to use a virtual environment to avoid system-wide package conflicts. 
 
 1 Update package lists:
 ```    
@@ -79,4 +82,18 @@ You can view the contents of the CSV file using a command-line tool like  cat
 ```
 cat new_zealand_holidays.csv
 ```
-This file will contain the dates and names of the national New Zealand holidays for the specified years. You can find more information about the holidays package in its documentation
+### CSV files
+
+[new_zealand_holidays.csv](new_zealand_holidays.csv)
+
+[holidaysanddaysofweek.csv[(holidaysanddaysofweek.csv)
+
+[NZholidaysandotherdays1894_2026.csv](NZholidaysandotherdays1894_2026.csv)
+
+[]()
+
+### License
+
+#### ODC-PDDL-1.0
+
+This data and the R scripts are made available under the Public Domain Dedication and License v1.0 whose full text can be found at: http://www.opendatacommons.org/licenses/pddl/1.0/. You are free to share, to copy, distribute and use the data, to create or produce works from the data and to adapt, modify, transform and build upon the data, without restriction.
